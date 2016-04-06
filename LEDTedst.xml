@@ -3,8 +3,68 @@
     <field name="ACTION">ON</field>
     <value name="LED">
       <block type="math_number" id="2">
-        <field name="NUM">4</field>
+        <field name="NUM">1</field>
       </block>
     </value>
+    <next>
+      <block type="led_select" id="11" inline="true">
+        <field name="ACTION">ON</field>
+        <value name="LED">
+          <block type="math_number" id="17">
+            <field name="NUM">2</field>
+          </block>
+        </value>
+        <next>
+          <block type="led_select" id="12" inline="true">
+            <field name="ACTION">ON</field>
+            <value name="LED">
+              <block type="math_number" id="18">
+                <field name="NUM">3</field>
+              </block>
+            </value>
+            <next>
+              <block type="led_select" id="13" inline="true">
+                <field name="ACTION">ON</field>
+                <value name="LED">
+                  <block type="math_number" id="19">
+                    <field name="NUM">4</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="led_select" id="14" inline="true">
+                    <field name="ACTION">ON</field>
+                    <value name="LED">
+                      <block type="math_number" id="20">
+                        <field name="NUM">5</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="led_select" id="15" inline="true">
+                        <field name="ACTION">ON</field>
+                        <value name="LED">
+                          <block type="math_number" id="23">
+                            <field name="NUM">6</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="led_select" id="16" inline="true">
+                            <field name="ACTION">ON</field>
+                            <value name="LED">
+                              <block type="math_number" id="22">
+                                <field name="NUM">7</field>
+                              </block>
+                            </value>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
   </block>
 </xml>
