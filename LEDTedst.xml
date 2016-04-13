@@ -3,8 +3,48 @@
     <field name="ACTION">OFF</field>
     <value name="LED">
       <block type="math_number" id="2">
-        <field name="NUM">5</field>
+        <field name="NUM">1</field>
       </block>
     </value>
+    <next>
+      <block type="led_select" id="19" inline="true">
+        <field name="ACTION">OFF</field>
+        <value name="LED">
+          <block type="math_number" id="20">
+            <field name="NUM">2</field>
+          </block>
+        </value>
+        <next>
+          <block type="led_select" id="21" inline="true">
+            <field name="ACTION">OFF</field>
+            <value name="LED">
+              <block type="math_number" id="22">
+                <field name="NUM">3</field>
+              </block>
+            </value>
+            <next>
+              <block type="led_select" id="23" inline="true">
+                <field name="ACTION">OFF</field>
+                <value name="LED">
+                  <block type="math_number" id="24">
+                    <field name="NUM">4</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="led_select" id="25" inline="true">
+                    <field name="ACTION">OFF</field>
+                    <value name="LED">
+                      <block type="math_number" id="26">
+                        <field name="NUM">5</field>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
   </block>
 </xml>
